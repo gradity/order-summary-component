@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  background: url(../images/pattern-background-mobile.svg) repeat-x;
+  background-color: #e0e8ff;
+}
+
+@media (min-width: 768px) {
+  body {
+    background: url(../images/pattern-background-desktop.svg) repeat-x;
+    background-color: #e0e8ff;
+  }
+}
+
+.container {
+  margin: 100px auto auto auto;
+  max-width: 451px;
+  height: 702px;
+  max-height: 702px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.container .hero {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container .card-title {
+  margin: 50px auto 16px auto;
+}
+
+.container .card-description {
+  margin: 0 auto 22px auto;
+  width: 312px;
+  height: 78px;
+  color: #7280a7;
+}
+
+.container .plan {
+  margin: 0 auto 32px auto;
+  width: 350px;
+  height: 97px;
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.container .plan-icon {
+  margin: 0 14px 0 20px;
+}
+
+.container .plan-information-type {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.container .plan-information-price {
+  color: #7280a7;
+}
+
+.container .plan-change {
+  margin: 0 23px 0 auto;
+  color: #3829e0;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.container .action {
+  margin-bottom: 51px;
+}
+
+.container .action-payment {
+  width: 354px;
+  height: 50px;
+  margin: 0 auto 28px auto;
+  border-radius: 10px;
+  border: none;
+  background-color: #3829e0;
+  font-weight: 500;
+  font-size: 16px;
+  color: #e0e8ff;
+  display: block;
+}
+
+.container .action-cancel {
+  text-decoration: none;
+  font-weight: 700;
+  color: #7280a7;
+}
+/*# sourceMappingURL=style.css.map */

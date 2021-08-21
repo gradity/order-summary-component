@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    
+    background: url(../images/pattern-background-mobile.svg) repeat-x;
+    background-color: $paleBlue;
+
+    @media(min-width: 768px) {
+        background: url(../images/pattern-background-desktop.svg) repeat-x;
+        background-color: $paleBlue;
+        
+    }
+    
+}

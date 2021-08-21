@@ -1,0 +1,95 @@
+.container {
+    margin: 100px auto auto auto;
+    max-width: 451px;
+    height: 702px;
+    max-height: 702px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+
+    .hero {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .card {
+        &-title {
+            margin: 50px auto 16px auto;
+        }
+
+        &-description {
+            margin: 0 auto 22px auto;
+            width: 312px;
+            height: 78px;
+            color: $desaturatedBlue;
+        }
+    }
+
+    .plan {
+        margin: 0 auto 32px auto;
+        width: 350px;
+        height: 97px;
+
+        background-color: $veryPaleBlue;
+        border-radius: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        &-icon {
+            margin: 0 14px 0 20px;
+        }
+
+        &-information {
+            &-type {
+                font-size: 16px;
+                font-weight: 700;
+                margin-bottom: 5px;
+            }
+
+            &-price {
+                color: $desaturatedBlue;
+            }
+        }
+
+        &-change {
+            margin: 0 23px 0 auto;
+            color: $brightBlue;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+
+    }
+
+    .action {
+
+        &-payment {
+            width: 354px;
+            height: 50px;
+            margin: 0 auto 28px auto;
+
+            border-radius: 10px;
+            border: none;
+            background-color: $brightBlue;
+
+            font-weight: 500;
+            font-size: 16px;
+            color: $paleBlue;
+            display: block;
+        }
+
+        &-cancel {
+            
+            text-decoration: none;
+            font-weight: 700;
+            color: $desaturatedBlue;
+        }
+        margin-bottom: 51px;
+    }
+
+
+
+}
