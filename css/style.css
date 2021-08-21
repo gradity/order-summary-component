@@ -99,6 +99,7 @@ body {
   font-size: 16px;
   color: #e0e8ff;
   display: block;
+  cursor: pointer;
 }
 
 .container .action-cancel {
